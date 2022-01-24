@@ -1,0 +1,17 @@
+.carousel {
+  .carousel-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 25vw;
+    top: 20vh;
+    overflow: hidden;
+    width: 100vw;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}

@@ -1,0 +1,8 @@
+[data-component="carousel"]{
+    overflow: hidden;
+    height: 100vh;
+    @import 'styles/carousel';
+    @import 'styles/carousel-button';
+    @import 'styles/visual';
+    @import 'styles/carousel-slide';
+  }

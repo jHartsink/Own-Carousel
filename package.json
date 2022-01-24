@@ -44,7 +44,7 @@
     "seng-scss": "^1.2.5"
   },
   "devDependencies": {
-    "@muban/skeleton": "^2.0.0",
+    "@muban/skeleton": "^2.0.1",
     "@pota/cli": "^1.0.1"
   },
   "engines": {
