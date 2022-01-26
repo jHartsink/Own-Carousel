@@ -4,27 +4,27 @@ export const CarouselMock: CarouselProps = {
   carouselSlides: [
     {
       src: 'https://source.unsplash.com/1600x900',
-      alt: 'Stairs',
+      alt: 'img',
     },
     {
       src: 'https://source.unsplash.com/1600x910',
-      alt: 'Stairs',
+      alt: 'img',
     },
     {
       src: 'https://source.unsplash.com/1600x920',
-      alt: 'Stairs',
+      alt: 'img',
     },
     {
       src: 'https://source.unsplash.com/1600x930',
-      alt: 'Stairs',
+      alt: 'img',
     },
     {
       src: 'https://source.unsplash.com/1600x2000',
-      alt: 'Stairs',
+      alt: 'img',
     },
     {
-      src: 'https://source.unsplash.com/1600x900',
-      alt: 'Stairs',
+      src: 'https://source.unsplash.com/1600x940',
+      alt: 'img',
     },
   ],
 };

@@ -2,10 +2,10 @@
   background: none;
   position: absolute;
   border: none;
-  left: 35vw;
-  margin-left: 30vw;
-  top: 18vh;
-  font-size: 1.5rem;
+  z-index: 4;
+  top: 50%;
+  font-size: 3.5rem;
+  font-weight: bolder;
   color: rgba(black, 0.5);
   cursor: pointer;
   border-radius: 0.75rem;

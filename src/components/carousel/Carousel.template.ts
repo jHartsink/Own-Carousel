@@ -11,6 +11,15 @@ export function CarouselTemplate(
   ref?: string,
 ): ComponentTemplateResult {
   return html`<div data-component="carousel" data-ref=${ref}>
+    <div class="background-wrapper">
+      ${carouselSlides.map(({ src, alt }) => {
+        return html`
+          <picture data-ref="background-visual">
+            <img src=${src} alt=${alt} />
+          </picture>
+        `;
+      })}
+    </div>
     <button class="carousel-button previous" data-ref="previous">
       <span> Previous</span>
     </button>

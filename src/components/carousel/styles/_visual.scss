@@ -16,11 +16,7 @@
 .visual {
   @include aspect-ratio(16, 9);
   position: relative;
-  inline-size: 50%;
-  background: red;
   display: block;
-  border: 5px solid black;
-  border-radius: 1%;
 
   picture {
     position: absolute;

@@ -1,0 +1,14 @@
+@use 'sass:math';
+
+@mixin aspect-ratio($inline-size, $block-size) {
+    aspect-ratio: $inline-size / $block-size;
+  
+    @supports not (aspect-ratio: $inline-size / $block-size) {
+      &::before {
+        content: '';
+        display: block;
+        inline-size: 100%;
+        padding-bottom: #{math.div($block-size, $inline-size) * 100%};
+      }
+    }
+  }
