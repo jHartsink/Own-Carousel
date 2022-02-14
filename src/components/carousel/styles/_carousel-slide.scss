@@ -8,11 +8,10 @@
     @include aspect-ratio(16, 9);
     position: relative;
     display: block;
-    background: red;
 
     picture {
       position: absolute;
-      inset: 0;
+      inset: 0  ;
       inline-size: 100%;
       img {
         display: block;
